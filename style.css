@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+  background: url("background_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#login {
+  background-color: #2e7d32;
+  margin: auto;
+  width: 450px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Quicksand";
+}
+
+#canvas_logo {
+  padding: 3px
+}
