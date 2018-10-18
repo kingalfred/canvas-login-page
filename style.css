@@ -1,19 +1,26 @@
 body {
   height: 100vh;
-  background: url("background_image.jpg");
+  background: url(background_image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#login {
-  background-color: #2e7d32;
-  margin: auto;
-  width: 450px;
-  text-align: center;
-  color: #ffffff;
-  font-family: "Quicksand";
+#login .list-group-item {
+  background-color: #1b5e20;
 }
 
-#canvas_logo {
-  padding: 3px
+#login a {
+  font-family: 'Quicksand';
+  color: black;
+}
+
+#login {
+  background-color: #1b5e20;
+  font-family: 'Quicksand';
+  margin: auto;
+}
+
+#kas_logo {
+  padding: 3px;
+  width: 100px;
 }
