@@ -1,26 +1,21 @@
 body {
-  height: 100vh;
-  background: url(background_image.jpg);
-  background-repeat: no-repeat;
+  max-height: 100vh;
+  overflow: hidden;
+  font-family: 'Quicksand', sans-serif !important;
+}
+
+.vh-100 {
+  height: 100vh !important;
+}
+
+.kingalfred-background {
+  background-image: url('https://raw.githubusercontent.com/kingalfred/canvas-login-page/master/background_image.jpg');
   background-size: cover;
+  background-repeat: no-repeat;=
 }
 
-#login .list-group-item {
-  background-color: #1b5e20;
-}
-
-#login a {
-  font-family: 'Quicksand';
-  color: black;
-}
-
-#login {
-  background-color: #1b5e20;
-  font-family: 'Quicksand';
-  margin: auto;
-}
-
-#kas_logo {
-  padding: 3px;
-  width: 100px;
+.container-small {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 300px;
 }
